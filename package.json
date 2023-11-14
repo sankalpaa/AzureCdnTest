@@ -7,10 +7,9 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "node_modules/next/dist/bin/next start",
-    "startAzure": "node_modules/next/dist/bin/next start",
-    "export": "next export",
+    "export": "",
     "lint": "next lint"
   },
   "dependencies": {
