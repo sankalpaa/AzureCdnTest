@@ -8,8 +8,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "startAzure": "./node_modules/next/dist/bin/next start",
+    "start": "node_modules/next/dist/bin/next start",
+    "startAzure": "node_modules/next/dist/bin/next start",
     "export": "next export",
     "lint": "next lint"
   },
